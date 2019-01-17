@@ -1,0 +1,183 @@
+.full_bg {
+  background-color: black; }
+  .full_bg .fontwhitetext {
+    color: white; }
+  .full_bg .bg_grey {
+    background-color: #ffffff;
+    opacity: 0.9; }
+  .full_bg .bg_pope {
+    background-image: url("../img/pope.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; }
+  .full_bg .bg_white {
+    background-color: white;
+    /* HIDE RADIO */
+    /* IMAGE STYLES */
+    /* CHECKED STYLES */ }
+    .full_bg .bg_white .cardtop {
+      margin-top: 70%; }
+    .full_bg .bg_white .display-flex {
+      display: flex;
+      flex-wrap: wrap; }
+    .full_bg .bg_white p {
+      color: black; }
+    .full_bg .bg_white .stylecol8 {
+      background-color: #c1bbbb; }
+    .full_bg .bg_white .stylevotes {
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 4%; }
+    .full_bg .bg_white .bg_botton {
+      background: linear-gradient(bottom, gray, transparent);
+      background: -webkit-linear-gradient(bottom, gray, transparent);
+      background: -moz-linear-gradient(bottom, gray, transparent);
+      background: -o-linear-gradient(bottom, gray, transparent);
+      background: -ms-linear-gradient(bottom, gray, transparent); }
+    .full_bg .bg_white .kaybg {
+      background-image: url("../img/Layer13.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%; }
+    .full_bg .bg_white .markbg {
+      background-image: url("../img/Mark.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: right;
+      height: 100%; }
+    .full_bg .bg_white .cristinabg {
+      background-image: url("../img/Layer12.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: right;
+      height: 100%; }
+    .full_bg .bg_white .malalabg {
+      background-image: url("../img/Layer14.png");
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: cover;
+      height: 100%; }
+    .full_bg .bg_white .backgroundradioup {
+      background-color: #4cafa9; }
+    .full_bg .bg_white .backgroundradiodown {
+      background-color: #c39b2f; }
+    .full_bg .bg_white [type=radio] {
+      position: absolute;
+      opacity: 0;
+      width: 0;
+      height: 0; }
+    .full_bg .bg_white [type=radio] + img {
+      cursor: pointer; }
+    .full_bg .bg_white [type=radio]:checked + img {
+      outline: 2px solid white; }
+  .full_bg .bg_gradient {
+    background: linear-gradient(top, gray, transparent);
+    background: -webkit-linear-gradient(top, gray, transparent);
+    background: -moz-linear-gradient(top, gray, transparent);
+    background: -o-linear-gradient(top, gray, transparent);
+    background: -ms-linear-gradient(top, gray, transparent); }
+  .full_bg p {
+    color: white; }
+  .full_bg h1 {
+    color: white; }
+  .full_bg a {
+    color: white;
+    padding-left: 40%; }
+  .full_bg .headerpadding {
+    padding-top: 4%;
+    padding-botton: 30%; }
+  .full_bg .headerpaddingh1 {
+    padding-top: 2%;
+    padding-botton: 30%; }
+  .full_bg .popetext {
+    margin-top: 7%;
+    background: gray;
+    margin-left: 11%;
+    opacity: 0.9;
+    padding-left: 0%;
+    padding-right: 0%; }
+    .full_bg .popetext p {
+      font-size: 20px;
+      padding-top: 5%;
+      padding-left: 4%;
+      padding-right: 4%;
+      color: white; }
+    .full_bg .popetext h1 {
+      color: white;
+      font-size: 3.5rem;
+      padding-left: 4%;
+      padding-right: 4%; }
+    .full_bg .popetext h3 {
+      color: white;
+      padding-left: 4%;
+      padding-right: 4%; }
+  .full_bg .block {
+    display: block;
+    width: 50%;
+    border: none;
+    background-color: #4cafa9;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 0%;
+    min-width: 30%;
+    max-width: 70%; }
+  .full_bg .block2 {
+    display: block;
+    width: 50%;
+    border: none;
+    background-color: #c39b2f;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 0%;
+    min-width: 30%;
+    max-width: 70%; }
+  .full_bg .rownomargin {
+    flex-wrap: wrap;
+    display: flex; }
+  .full_bg .margin-5top {
+    margin-top: 5%; }
+    .full_bg .margin-5top p {
+      padding-top: 4%;
+      color: white;
+      padding-right: 2%; }
+    .full_bg .margin-5top h2 {
+      color: black;
+      padding-left: 2%;
+      padding-top: 2%; }
+    .full_bg .margin-5top .bg_gray_transparent {
+      background-color: gray;
+      opacity: 0.5;
+      border: 1px solid gray;
+      position: relative; }
+    .full_bg .margin-5top .bg_gray_transparent:before {
+      content: "";
+      position: absolute;
+      right: 0px;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-left: 20px solid gray;
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent; }
+    .full_bg .margin-5top .bg_white_transparent {
+      background-color: white;
+      opacity: 0.5;
+      position: relative; }
+    .full_bg .margin-5top .bg_white_transparent:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-left: 20px solid gray;
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent; }
+
+/*# sourceMappingURL=style.css.map */

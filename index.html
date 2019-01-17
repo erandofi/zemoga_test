@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">  
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+<title>Test zemoga</title>
+</head>
+<body>
+    <div class="full_bg">
+        <div class="container">
+            <div class="row bg_pope">
+                <div class="col-lg-12 d-flex  flex-md-row align-items-center p-3 px-md-4 mb-3 bg_gradient topnav" id="myTopnav">
+                  <h1 class="my-0 mr-md-auto font-weight-normal">Rule of Thumb.</h1>
+                  <nav class="my-2 my-md-0 mr-md-3" >
+                    <a class="p-2 " href="past-trials.html">Past Trials</a>
+                    <a class="p-2 " href="howitworks.html">How It Works</a>
+                    <a class="p-2 " href="login.html">Login/SignUp</a>
+                    <a class="p-2 " href="#"><img src="img/CompositePathlookup.png"></a>
+                  </nav>
+                </div>           
+                <div id="popetext" class="col-lg-5 popetext">
+                    <p>what's your opinion on</p>
+                        <h1>Pope Francis?</h1>
+                    <p>He's talking tough on clergy sexual abuse,
+                        but is he just another papal pervert protector? (thumb down) or a true pedophile punishing pontiff (thumbs up)</p>
+                    <p><span> More information </span> </p>
+                    <h3>What's your verdict?</h3>
+                    <div class="rownomargin">
+                        <button class="block"><img src="img/Rectangle9copypope.png"></button>
+                        <button class="block2"><img src="img/Rectangle9copy2popedown.png"></button>                        
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row margin-5top">
+                        <div class="col-lg-4 text-right bg_gray_transparent triangle-left">
+                            <p> CLOSING IN</p>
+                        </div>
+                        <div class="col-lg-6 text-left bg_white_transparent">
+                            <h2><b>22</b> days</h2>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+            <div class="row bg_white">
+                <div class="col-lg-11 ml-auto mr-auto">
+                    <div class="container mt-5 stylecol8">
+                          <div class="card-deck mb-3">
+                            <div class=" mb-4">
+                              <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-4 d-inline">
+                                    <h3>Speak Out. Be heard.
+                                    <b>Be counted</b>
+                                    </h3>
+                                </div>
+                                <div class="col-lg-8 d-inline">
+                                    <p>Rule of thumb is a crowd sourced court of public opinion where anyone and everyone can speak out and speak freely. it's easy: You share your opinion, we analyze and put the data in a public report.</p>
+                                </div>
+                            </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>  
+                    <div class="container">
+                                <div class="col-lg-4">
+                                    <h2>Votes.</h2>
+                                </div>
+                    </div> 
+                    <div class="container">
+                        <div class="display-flex">
+                            <div class="card-deck mb-3">
+                            <div id="totalkay" class="card mb-3 box-shadow kaybg">
+                              <div class="card-body cardtop bg_botton">
+                                <h1 class="card-title pricing-card-title">Kanye West</h1>
+                                <ul class="list-unstyled mt-3 ">
+                                  <li><small class="fontwhitetext">1 month ago in Entretainment</small></li>
+                                  <li id="kcontent" class="fontwhitetext">vestibulum diam ante, porttitor a odio eget rhoncus neque. Aenean eu velit libero.</li>
+                                </ul>
+                                <label class="backgroundradioup p-2" id="thumbupkanye">
+                                  <input type="radio" name="kayne" id="kayneup" value="up" checked>
+                                  <img src="img/Rectangle9copy17.png">
+                                </label>
+
+                                <label class="backgroundradiodown p-2" id="thumbdownkanye">
+                                  <input type="radio" name="kayne" id="kaynedown" value="down">
+                                  <img src="img/Rectangle9copy5.png">
+                                </label>
+                                <label id="btnkanyevote">
+                                    <button class="btn" onclick="kanye()"  style="background-color: transparent;
+                                    border: solid;
+                                    border-width: 1px;
+                                    border-radius: 0px;
+                                    border-color: white;
+                                    color: white;">Vote now</button>
+                                </label>
+                                <label style="display: none;" id="btnkanye">
+                                    <button class="btn" onclick="votekanyeagain()"  style="background-color: transparent;
+                                    border: solid;
+                                    border-width: 1px;
+                                    border-radius: 0px;
+                                    border-color: white;
+                                    color: white;">Vote again</button>
+                                </label>                                
+                              </div>
+                                <div class="rownomargin">
+                                    <div id="goodkanye" class="block text-left">
+                                        <img src="img/Rectangle9copy3bigup.png">
+                                        <span id="textkayneup">50%</span>
+                                    </div>
+                                    <div id="badkanye" class="block2 text-right">
+                                        <span id="textkaynedown">50%</span>
+                                        <img src="img/Rectangle9copy4bigdown.png">
+                                    </div>                        
+                                </div>
+                            </div>
+                            <div class="card mb-3 box-shadow markbg">
+                              <div class="card-body cardtop bg_botton">
+                                <h1 class="card-title pricing-card-title">Mark Zuckerberg</h1>
+                                <ul class="list-unstyled mt-3 ">
+                                  <li><small class="fontwhitetext">1 <b>month ago</b> in Businsess</small></li>
+                                  <li id="mcontent" class="fontwhitetext">Thank you for voting!</li>
+                                </ul>
+                                <label class="backgroundradioup p-2" id="thumbupmark">
+                                  <input type="radio" name="mark" id="markup" value="up" checked>
+                                  <img src="img/Rectangle9copy17.png">
+                                </label>
+
+                                <label class="backgroundradiodown p-2" id="thumbdownmark">
+                                  <input type="radio" name="mark" id="markdown" value="down">
+                                  <img src="img/Rectangle9copy5.png">
+                                </label>
+                                <label id="btnmarkvote">
+                                    <button class="btn" onclick="mark()" style="background-color: transparent;
+                                    border: solid;
+                                    border-width: 1px;
+                                    border-radius: 0px;
+                                    border-color: white;
+                                    color: white;">Vote now</button>
+                                </label>
+                                <label style="display: none;" id="btnmark">
+                                    <button class="btn" onclick="votemarkagain()"  style="background-color: transparent;
+                                    border: solid;
+                                    border-width: 1px;
+                                    border-radius: 0px;
+                                    border-color: white;
+                                    color: white;">Vote again</button>
+                                </label>                                                                 
+                              </div>
+                                <div class="rownomargin">
+                                    <div id="goodmark" class="block text-left">
+                                        <img src="img/Rectangle9copy3bigup.png">
+                                        <span id="textmarkup">50%</span>
+                                    </div>
+                                    <div id="badmark" class="block2 text-right">
+                                        <span id="textmarkdown">50%</span>
+                                        <img src="img/Rectangle9copy4bigdown.png">
+                                    </div>                        
+                                </div>                              
+                            </div>                        
+                          </div>
+                        </div>
+
+                    </div>
+                    <div class="container">
+                        <div class="display-flex">
+                            <div class="card-deck mb-3">
+                            <div class="card mb-3 box-shadow cristinabg">
+                              <div class="card-body cardtop bg_botton">
+                                <h1 class="card-title pricing-card-title">Cristina Fernández de Kirchner</h1>
+                                <ul class="list-unstyled mt-3 ">
+                                  <li><small class="fontwhitetext">1 month ago in Entretainment</small></li>
+                                  <li id="ccontent" class="fontwhitetext">vestibulum diam ante, porttitor a odio eget rhoncus neque. Aenean eu velit libero.</li>
+                                </ul>
+                                <label class="backgroundradioup p-2" id="thumbupcris">
+                                  <input type="radio" id="crisup" name="cris" value="up" checked>
+                                  <img src="img/Rectangle9copy17.png">
+                                </label>
+
+                                <label class="backgroundradiodown p-2" id="thumbdowncris">
+                                  <input type="radio" id="crisdown" name="cris" value="down">
+                                  <img src="img/Rectangle9copy5.png">
+                                </label>
+                                <label id="btncrisvote">
+                                    <button class="btn" onclick="cris()" style="background-color: transparent;
+                                    border: solid;
+                                    border-width: 1px;
+                                    border-radius: 0px;
+                                    border-color: white;
+                                    color: white;">Vote now</button>
+                                </label>
+                                <label style="display: none;" id="btncris">
+                                    <button class="btn" onclick="votecrisagain()"  style="background-color: transparent;
+                                    border: solid;
+                                    border-width: 1px;
+                                    border-radius: 0px;
+                                    border-color: white;
+                                    color: white;">Vote again</button>
+                                </label>                                                                 
+                              </div>
+                                <div class="rownomargin">
+                                    <div id="goodcris" class="block text-left">
+                                        <img src="img/Rectangle9copy3bigup.png">
+                                        <span id="textcrisup" >50%</span>
+                                    </div>
+                                    <div id="badcris" class="block2 text-right">
+                                        <span id="textcrisdown">50%</span>
+                                        <img src="img/Rectangle9copy4bigdown.png">
+                                    </div>                        
+                                </div>
+                            </div>
+                            <div class="card mb-3 box-shadow malalabg">
+                              <div class="card-body cardtop bg_botton">
+                                <h1 class="card-title pricing-card-title">Malala Yousafzai</h1>
+                                <ul class="list-unstyled mt-3 ">
+                                  <li ><small class="fontwhitetext">1 <b>month ago</b> in Businsess</small></li>
+                                  <li id="macontent" class="fontwhitetext">vestibulum diam ante, porttitor a odio eget rhoncus neque. Aenean eu velit libero.</li>
+                                </ul>
+                                <label class="backgroundradioup p-2"id="thumbupmala">
+                                  <input type="radio" id="malup" name="malala" value="up" checked>
+                                  <img src="img/Rectangle9copy17.png">
+                                </label>
+
+                                <label class="backgroundradiodown p-2" id="thumbdownmala">
+                                  <input type="radio" id="maldown" name="malala" value="down">
+                                  <img src="img/Rectangle9copy5.png">
+                                </label>
+                                <label id="btnmalavote">
+                                    <button class="btn" onclick="mal()" style="background-color: transparent;
+                                    border: solid;
+                                    border-width: 1px;
+                                    border-radius: 0px;
+                                    border-color: white;
+                                    color: white;">Vote now</button>
+                                </label> 
+                               <label style="display: none;" id="btnmala">
+                                    <button class="btn" onclick="votemalaagain()"  style="background-color: transparent;
+                                    border: solid;
+                                    border-width: 1px;
+                                    border-radius: 0px;
+                                    border-color: white;
+                                    color: white;">Vote again</button>
+                                </label>                                                                 
+                              </div>
+                                <div class="rownomargin">
+                                    <div id="goodmal" class="block text-left">
+                                        <img src="img/Rectangle9copy3bigup.png">
+                                        <span id="textmalup">50%</span>
+                                    </div>
+                                    <div id="badmal" class="block2 text-right">
+                                        <span id="textmaldown">50%</span>
+                                        <img src="img/Rectangle9copy4bigdown.png">
+                                    </div>                        
+                                </div>                              
+                            </div>                        
+                          </div>
+                        </div>
+
+                    </div>                                                                               
+                </div>
+            </div>           
+        </div>
+    </div>     
+</body>
+<script type="text/javascript" src="scripts/functions.js"></script>
+</html>
